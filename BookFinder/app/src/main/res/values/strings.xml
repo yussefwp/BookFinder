@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Bookfinder</string>
+    <string name="to_sell">Choose a book to sell!</string>
+    <string name="main_button_size">120dp</string>
+    <string name="title_activity_view_order_details">ViewOrderDetails</string>
+    <string name="title_activity_view_order">ViewOrder</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="to_search">Search for a book!</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="Title">Title</string>
+
+    <string name="title_activity_request_refund">RequestRefundActivity</string>
+
+    <string name="reasons_prompt">Choose a country</string>
+    <string-array name="reasons">
+        <item>Bought by mistake</item>
+        <item>Will not arrive in time </item>
+        <item>Better Price Available</item>
+    </string-array>
+
+
+    <string name="yesorno_prompt">Choose one</string>
+    <string-array name="yesorno">
+        <item>Yes</item>
+        <item>No </item>
+    </string-array>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_account">Account</string>
+
+</resources>
+

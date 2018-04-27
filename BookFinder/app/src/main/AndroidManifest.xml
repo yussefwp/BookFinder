@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="group151.bookfinder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera2" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="HomePage" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SellBookActivity"
+            android:label="Sell Book" />
+        <activity
+            android:name=".QuestionActivity"
+            android:label="Question" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register" />
+        <activity
+            android:name=".OrderUpdate"
+            android:label="OrderUpdate" />
+        />
+        <activity
+            android:name=".TrackingActivity"
+            android:label="TrackingPackage" />
+        <activity
+            android:name=".RequestCancel_Refund"
+            android:label="Cancel/Refund" />
+        <activity
+            android:name=".BalanceAccount"
+            android:label="BalanceAccount" />
+        <activity
+            android:name=".Transaction"
+            android:label="Transaction" />
+        <activity android:name=".Wlist" />
+        <activity
+            android:name=".Account"
+            android:label="Account" />
+        <activity android:name=".Admin" />
+        <activity
+            android:name=".Search"
+            android:label="Search" />
+        <activity
+            android:name=".InflatingLayout"
+            android:label="SearchLayout" />
+        <activity
+            android:name=".purchaseHistory"
+            android:label="Purchase History" />
+        <activity
+            android:name=".InflatingPurchase"
+            android:label="Purchase_Layout" />
+        <activity
+            android:name=".RateSeller"
+            android:label="RateSeller"></activity>
+        <activity android:name=".MailingAddress"
+            android:label="MailingAddress"></activity>
+    </application>
+
+</manifest>
